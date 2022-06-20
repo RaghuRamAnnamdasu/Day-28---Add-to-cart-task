@@ -1,0 +1,205 @@
+.header{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 325px;
+  background-color: black;
+  margin-bottom: 20px;
+}
+
+@media (min-width:320px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ }
+
+.heading{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  height:max-content;
+}
+
+
+.heading h1{
+  font-size:57px;
+  margin-bottom: 10px;
+  margin-top: 0;
+  color:white;
+}
+
+.heading p{
+  font-size:20px;
+  margin:0;
+  color:grey;
+}
+
+.ItemsContainer{
+  display : flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap : 40px;
+  justify-content: center;
+  padding: 50px;
+}
+.sale1,
+.sale2,
+.sale4,
+.sale6 {
+  position : absolute;
+  background-color: black;
+  color : white;
+  font-size: 14px;
+  width: 35px;
+  text-align: center;
+  padding: 2px;
+  border-radius: 5px;
+  right: 10px;
+  top: 10px;
+}
+
+.image{
+  max-width: 300px;
+  object-fit: cover;
+}
+
+.card{
+  max-width : 270px;
+  margin-bottom: 20px;
+  min-height: 400px;
+}
+.cardContent{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position : relative;
+}
+.name{
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 19px;
+}
+.rating,
+.cost{
+  margin-bottom: 10px;
+}
+.imageWrapper {
+  position: relative;
+}
+.addToCartButton{
+  position : absolute !important;
+  top:115px !important;
+  left: 70px !important;
+  margin: 20px 0 !important;
+}
+
+.removeButton{
+  position : absolute !important;
+  top:115px !important;
+  left: 85px !important;
+  margin: 20px 0 !important;
+}
+
+.footer{
+  min-height: 120px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer div{
+  color : white;
+}
+
+.navBarEnclosure{
+  padding : 0 100px;
+  background-color: white !important;
+}
+
+.navBarSubEnclosure{
+  display : grid !important;
+  grid-template-columns: 170px 1fr 150px !important;
+}
+
+.section1{
+  display : flex;
+  align-items: center !important;
+  margin-left: 40px;
+
+}
+.section1 button{
+  color : black;
+  font-weight: lighter !important;
+  text-transform : capitalize !important ;
+}
+
+.section1 button:hover{
+  font-weight : 400 !important; 
+  background-color: white !important;
+}
+
+
+.section1  :first-child {
+  font-weight : 400 !important; 
+}
+.title{
+  display : flex;
+  align-items: center;
+}
+.title a{
+  font-size: 25px;
+  color : black;
+  text-decoration: none;
+}
+
+
+.section2 button{
+  color : black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap : 8px;
+}
+
+.cartIcon,
+.cartDescription{
+  color : black !important;
+}
+
+.cartCount{
+  background-color: black;
+  border-radius: 50%;
+  min-width: 25px;
+  color : white !important;
+}
+
+.shopButton{
+  position : relative !important;
+}
+
+.dropDownList{
+  background-color: white;
+  position : absolute !important;
+  top : 40px;
+  left : 0px;
+  border : 0.5px solid grey;
+  border-radius: 5px;
+}
+
+.dropDownList ul{
+  list-style: none;
+  padding : 5px 0px !important;
+  margin: 0 !important;
+}
+
+.dropDownItem{
+  min-width: 120px;
+  padding : 8px 23px !important;
+  text-align: left;
+}
+
+.dropDownItem a{
+  text-decoration: none;
+  width : max-content;
+}
+
+.breakItem{
+  margin: 5px !important;
+}
